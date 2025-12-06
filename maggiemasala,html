@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Spicy Masala Maggi</title>
+  </head>
+  <body>
+    <h1>Spicy Masala Maggi</h1>
+    <p>This quick and flavorful noodle recipe is perfect for late-night cravings or a cozy snack.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>1 packet Maggi noodles</li>
+      <li>1 cup water</li>
+      <li>1 chopped green chili</li>
+      <li>1/4 tsp turmeric powder</li>
+      <li>1/2 tsp garam masala</li>
+      <li>1 tbsp chopped coriander leaves</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li>Boil water in a pan and add the Maggi noodles.</li>
+      <li>Add the tastemaker and stir well.</li>
+      <li>Mix in green chili, turmeric, and garam masala.</li>
+      <li>Cook for 2–3 minutes until noodles are soft and spices are absorbed.</li>
+      <li>Garnish with coriander leaves and serve hot.</li>
+    </ol>
+
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="A bowl of spicy Maggi noodles garnished with coriander">
+  </body>
+</html>
