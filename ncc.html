@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NCC Recruitment Form</title>
+</head>
+<body>
+  <header>
+    <h1>NCC Recruitment Form</h1>
+    <p>Fields marked with * are mandatory.</p>
+  </header>
+
+  <main>
+    <form action="/submit-ncc" method="post" enctype="multipart/form-data">
+      
+      
+      <section>
+        <h2>Personal Details</h2>
+        <label for="fname">Full Name *</label>
+        <input type="text" id="fname" name="full_name" required><br><br>
+
+        <label for="father">Father/Guardian Name *</label>
+        <input type="text" id="father" name="guardian_name" required><br><br>
+
+        <label for="dob">Date of Birth *</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="gender">Gender *</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select…</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select><br><br>
+
+        <label for="nationality">Nationality *</label>
+        <input type="text" id="nationality" name="nationality" required value="Indian"><br><br>
+      </section>
+
+      
+      <section>
+        <h2>Contact Information</h2>
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Mobile Number *</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+        <label for="addr">Address *</label>
+        <textarea id="addr" name="address" required></textarea><br><br>
+
+        <label for="city">City *</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="pincode">PIN Code *</label>
+        <input type="text" id="pincode" name="pincode" pattern="[0-9]{6}" required><br><br>
+      </section>
+
+      
+      <section>
+        <h2>Education Details</h2>
+        <label for="inst">Institution *</label>
+        <input type="text" id="inst" name="institution" required><br><br>
+
+        <label for="program">Program *</label>
+        <input type="text" id="program" name="program" required><br><br>
+
+        <label for="year">Year/Semester *</label>
+        <select id="year" name="year" required>
+          <option value="">Select…</option>
+          <option>1st Year</option>
+          <option>2nd Year</option>
+          <option>3rd Year</option>
+          <option>4th Year</option>
+        </select><br><br>
+      </section>
+
+      
+      <section>
+        <h2>NCC Preferences</h2>
+        <label for="wing">Preferred Wing *</label>
+        <select id="wing" name="wing" required>
+          <option value="">Select…</option>
+          <option>Army</option>
+          <option>Air</option>
+          <option>Navy</option>
+        </select><br><br>
+
+        <label for="cert">Target Certificate</label>
+        <select id="cert" name="certificate">
+          <option value="">Select…</option>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+        </select><br><br>
+      </section>
+
+      
+      <section>
+        <h2>Medical & Identification</h2>
+        <label for="medical">Medical Fitness *</label>
+        <select id="medical" name="medical_fitness" required>
+          <option value="">Select…</option>
+          <option>Fit</option>
+          <option>Under Treatment</option>
+        </select><br><br>
+
+        <label for="aadhar">Aadhaar Number *</label>
+        <input type="text" id="aadhar" name="aadhar" pattern="[0-9]{12}" required><br><br>
+
+        <label for="photo">Passport-size Photo *</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+
+        <label for="idproof">ID Proof *</label>
+        <input type="file" id="idproof" name="id_proof" accept=".pdf,image/*" required><br><br>
+      </section>
+
+      
+      <section>
+        <h2>Consent</h2>
+        <label>
+          <input type="checkbox" name="agree_rules" required>
+          I confirm that the information provided is accurate and I agree to NCC rules.
+        </label><br><br>
+
+        <label>
+          <input type="checkbox" name="agree_contact" required>
+          I consent to being contacted via email/phone regarding NCC selection.
+        </label><br><br>
+      </section>
+
+      
+      <section>
+        <button type="submit">Submit Application</button>
+        <button type="reset">Reset</button>
+      </section>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 NCC Recruitment</p>
+  </footer>
+</body>
+</html>
